@@ -13,5 +13,3 @@ fields:
     wysiwyg: true
     schema:
       format: html
-pages:
-- portfolio/index.md
