@@ -5,10 +5,9 @@ admin_path: "/admin"
 webhook_url: 
 sections:
 - type: document
-  path: home/index.md
-  label: Homepage
-  templates:
-  - settings
+  path: home
+  label: Home
+  match: "**/*"
 - type: directory
   path: apis
   label: Metro APIs
