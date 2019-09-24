@@ -35,8 +35,8 @@ fields:
   config:
     required: true
 pages:
+- real-time/real-time-arrivals.md
 - schedules/schedule-data-for-metro-bus-and-metro-rail.md
 - policies/terms-conditions.md
 - gis/gis-data.md
-- real-time/real-time-arrivals.md
 - apis/api-metro-net.md
