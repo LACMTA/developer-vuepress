@@ -35,5 +35,5 @@ fields:
   config:
     required: true
 pages:
-- schedules/schedule-data-for-metro-bus-and-metro-rail.md
 - apis/api-metro-net.md
+- schedules/schedule-data-for-metro-bus-and-metro-rail.md
