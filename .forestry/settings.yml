@@ -5,7 +5,7 @@ admin_path: "/admin"
 webhook_url: 
 sections:
 - type: document
-  path: index.md
+  path: home/index.md
   label: Homepage
   templates:
   - settings
