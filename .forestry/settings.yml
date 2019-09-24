@@ -34,7 +34,7 @@ sections:
   create: all
   match: "**/*"
   templates:
-  - works
+  - journal
 - type: directory
   path: policies
   label: Policies
