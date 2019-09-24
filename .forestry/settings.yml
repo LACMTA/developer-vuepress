@@ -5,10 +5,52 @@ admin_path: "/admin"
 webhook_url: 
 sections:
 - type: document
-  path: portfolio/index.md
+  path: index.md
   label: Homepage
   templates:
   - settings
+- type: directory
+  path: apis
+  label: Metro APIs
+  create: all
+  match: "**/*"
+  templates:
+  - works
+- type: directory
+  path: schedules
+  label: Schedule Data
+  create: all
+  match: "**/*"
+  templates:
+  - works
+- type: directory
+  path: real-time
+  label: Real-Time Arrivals
+  create: all
+  match: "**/*"
+  templates:
+  - works
+- type: directory
+  path: gis
+  label: GIS Data
+  create: all
+  match: "**/*"
+  templates:
+  - works
+- type: directory
+  path: policies
+  label: Policies
+  create: all
+  match: "**/*"
+  templates:
+  - works
+- type: directory
+  path: bikeways
+  label: Bikeways
+  create: all
+  match: "**/*"
+  templates:
+  - works
 - type: directory
   path: portfolio/works
   label: Works
